@@ -56,3 +56,9 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+.fa-google-plus, .fa-twitter, .fa-facebook{
+  font-size: 1.5em;
+  padding-right: 0.6em;
+  color: white;
+}

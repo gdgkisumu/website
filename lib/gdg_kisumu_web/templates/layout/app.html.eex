@@ -7,26 +7,21 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Hello GdgKisumu!</title>
+    <title>Welcome to GdgKisumu!</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 
   <body>
-    <!-- <header class="header"> -->
-    <!-- <nav role="navigation"> -->
-    <!-- <ul class="nav nav-pills pull-right"> -->
-    <!-- <li><a href="http://www.phoenixframework.org/docs">Get Started</a></li> -->
-    <!-- </ul> -->
-    <!-- </nav> -->
-    <!-- <span class="logo"></span> -->
-    <!-- </header> -->
       <nav class="white" role="navigation">
+          <a id="logo-container" href="/" class="brand-logo">
+            <img alt="" src="https://developers.google.com/_static/2ceb35fd6c/images/GDG-program-logo.png"/>
+          </a>
         <div class="nav-wrapper container">
-          <a id="logo-container" href="#" class="brand-logo">Logo</a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="#">Navbar Link</a></li>
+            <li><a href="#">Join Us</a></li>
           </ul>
 
           <ul id="nav-mobile" class="side-nav">
